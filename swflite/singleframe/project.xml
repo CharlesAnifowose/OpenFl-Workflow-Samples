@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	
+	<!-- <meta title="DEPP QTI-PCI Demo" package="com.vretta.depp.001" version="1.0.0" company="Vretta" /> -->
+	<meta title="Depp001" package="com.vretta.mathematic.depp" version="1.0.0" company="Vretta" />
+	<app main="Main" path="Export" file="Depp001" />
+	
+	<window width="600" height="400" fps="60" />
+	<window width="0" height="0" fps="60" if="html5" />
+	
+	<source path="Source" />
+	
+	<haxelib name="openfl" />
+	<haxelib name="actuate" />
+	<haxelib name="swf" />
+	
+	
+	<library path="Assets/Library.swf" id="swf-library" preload="true" type="swflite"  /> 
+	
+	<assets path="Assets" rename="assets" exclude="openfl.svg|Library.fla|Library.swf" />
+	
+	
+	<icon path="Assets/openfl.svg" />
+	
+</project>
